@@ -10,7 +10,8 @@ This plugin adds a button to jsToolbar to insert an `ins` tag and underline the 
 ### When using git
 1. Clone this repository to your Redmine plugins directory.
     ```
-    git clone https://github.com/sk-ys/redmine_wiki_underline.git YOUR_REDMINE_DIRECTORY/plugins/redmine_wiki_underline
+    cd YOUR_REDMINE_DIRECTORY/plugins
+    git clone https://github.com/sk-ys/redmine_wiki_underline.git
     ```
 2. Restart Redmine.
 
