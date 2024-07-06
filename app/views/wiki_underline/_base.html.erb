@@ -1,0 +1,5 @@
+<% if Setting.text_formatting == "common_mark" %>
+  <% content_for :header_tags do %>
+    <%= javascript_include_tag "wiki_underline", plugin: "redmine_wiki_underline" %>
+  <% end %>
+<% end %>
